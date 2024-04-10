@@ -37,7 +37,7 @@ public class GenreDaoImpl implements IGenreDao{
 	}
 	
 	@Override
-	public void deleteGenre(int id) {
+	public void deleteGenre(long id) {
 		Genre genre = entityManager.find(Genre.class, id);
 		entityManager.getTransaction().begin();
 		entityManager.remove(genre);
