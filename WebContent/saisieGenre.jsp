@@ -6,7 +6,7 @@ pageEncoding="windows-1256"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
-<title>Saisie Catégorie</title>
+<title>Saisie Genre</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -20,7 +20,7 @@ Saisie des Genres
 <div class="card-body">
 <form action="saveGenre" method="post">
 <div class="form-group">
-<label class="control-label">Nom Catégorie :</label>
+<label class="control-label">Nom Genre :</label>
 <input type="text" name="nom" class="form-control"/>
 </div>
 <div class="form-group">
