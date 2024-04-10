@@ -54,7 +54,7 @@ public class GenreServlet extends HttpServlet {
 				}
 				else if (path.equals("/supprimerG"))
 				{
-					int id= (int) Long.parseLong(request.getParameter("id"));
+					long id= Long.parseLong(request.getParameter("id"));
 					metier.deleteGenre(id);
 					response.sendRedirect("genres");
 				}
