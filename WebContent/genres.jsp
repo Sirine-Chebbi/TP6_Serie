@@ -7,7 +7,7 @@ pageEncoding="windows-1256"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
-<title>Liste des catégories</title>
+<title>Liste des catأ©gories</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -27,7 +27,7 @@ Liste des genres
 <tr>
 <td>${g.idG }</td>
 <td>${g.nomG }</td>
-<td><a onclick="return confirm('Etes-vous sûr ?')" href="supprimerG?id=${cat.idG }">Supprimer</a></td>
+<td><a onclick="return confirm('Etes-vous sأ»r ?')" href="supprimerG?id=${g.idG }">Supprimer</a></td>
 <td><a href="editerG?id=${g.idG }">Edit</a></td>
 </tr>
 </c:forEach>
